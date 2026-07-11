@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Showcasing my web development projects and skills.">
+    <meta name="author" content="Rachael Martinez-Jones">
+
+    <!-- Open Graph / Social Sharing -->
+    <meta property="og:title" content="RMJ Designs | Web Development Portfolio">
+    <meta property="og:description" content="Showcasing my web development projects and skills.">
+    <meta property="og:image" content="https://www.rmjdesigns.com/images/business-logo.png">
+    <meta property="og:url" content="https://www.rmjdesigns.com/projects.html">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="RMJ Designs Portfolio">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="RMJ Designs | Web Development Portfolio">
+    <meta name="twitter:description" content="Showcasing my web development projects and skills.">
+    <meta name="twitter:image" content="https://www.rmjdesigns.com/images/business-logo.png">
+    <meta name="twitter:url" content="https://www.rmjdesigns.com/projects.html">
+    <meta name="twitter:creator" content="Rachael Martinez-Jones">
+
+    <title>RMJ Designs | Web Development Portfolio</title>
+
+    <!-- Link Canonical and Stylesheet-->
+    <link rel="canonical" href="https://www.rmjdesigns.com/projects.html">
+    <link rel="stylesheet" href="styles.css">
+    <script src="actions.js" defer></script>
+</head>
+
+<body>
+    <a class="skip-link" href="#main-content">Skip to Main Content</a>
+
+    <header class="site-header">
+        <a href="index.html"><img src="Images/Header/business-logo.png" class="logo" alt="RMJ Designs Logo"></a>
+
+        <h1 class="sr-only">RMJ Designs</h1>
+
+        <div class="hamburger-menu">
+            <button class="menu-toggle" aria-expanded="false" aria-controls="main-navigation" aria-label="Open navigation menu">
+                <img src="Images/Header/hamburger-menu-mobile-svgrepo-com.svg" alt="">
+            </button>
+
+            <nav id="main-navigation" class="main-nav" aria-label="Main navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main id="main-content">
+        <h2>Project Gallery</h2>
+        <section id="trip-snapshot-overview">
+            <h3>Trip Snapshot</h3>
+            <video controls preload="metadata" aria-label="Trip Snapshot project demonstration video">
+                <source src="Videos/Trip-Snapshot.mp4" type="video/mp4">
+                <track kind="captions" src="Captions/trip-snapshot.vtt" srclang="en" label="English captions" default>
+                Your browser does not support the video tag.
+            </video>
+            <p>A responsive travel planning website for organizing trips, exploring destinations, and creating an itinerary tailored to the individual user's needs. This project was created in order to deal with the frequent issue that the majority of tourists face when using different websites to explore their destinations.</p>
+
+            <div class="case-study">
+                <div class="objective">
+                    <button class="section-header" aria-expanded="false" aria-controls="trip-objective-content">
+                        <span>Objective</span>
+
+                        <span class="header-right">
+                            <span class="instruction">Expand for Details</span>
+                            <span class="arrow">&#9662;</span>
+                        </span>
+                    </button>
+
+                    <div id="trip-objective-content" class="section-content" hidden>
+                        <p>Make a responsive travel planning website for organizing trips, exploring destinations, and creating an itinerary tailored to the individual user's needs. It addresses the frequent issue that the majority of tourists face when using different websites to explore their destinations.</p>
+                    </div>
+                </div>
+
+                <div class="synopsis">
+                    <button class="section-header" aria-expanded="false" aria-controls="trip-synopsis-content">
+                        <span>Synopsis</span>
+
+                        <span class="header-right">
+                            <span class="instruction">Expand for Details</span>
+                            <span class="arrow">&#9662;</span>
+                        </span>
+                    </button>
+
+                    <div id="trip-synopsis-content" class="section-content" hidden>
+                        <p>The concept of Trip Snapshot has been generated from ideas drawn from modern travel apps like Airbnb, TripAdvisor, and Google Travel. It merges destination exploration, trip planning, and trip organization into one platform. The design focuses on simplicity, easy navigation, and mobile usability.</p>
+                    </div>
+                </div>
+
+                <div class="process">
+                    <button class="section-header" aria-expanded="false" aria-controls="trip-process-content">
+                        <span>Process</span>
+
+                        <span class="header-right">
+                            <span class="instruction">Expand for Details</span>
+                            <span class="arrow">&#9662;</span>
+                        </span>
+                    </button>
+
+                    <div id="trip-process-content" class="section-content" hidden>
+                        <p>HTML, CSS, and JavaScript languages were utilized for designing the site following the principle of mobile-first design. The responsive design of the site was realized with the help of Flexbox, CSS Grid, and media queries in order to ensure cross-platform adaptability of the website. Integration with APIs was utilized for obtaining information about destinations and relevant travel-related data. Technologies of storing information about trips in the browsers' memory were applied, including sessionStorage and localStorage.</p>
+                    </div>
+                </div>
+
+                <div class="results">
+                    <button class="section-header" aria-expanded="false" aria-controls="trip-results-content">
+                        <span>Results</span>
+
+                        <span class="header-right">
+                            <span class="instruction">Expand for Details</span>
+                            <span class="arrow">&#9662;</span>
+                        </span>
+                    </button>
+
+                    <div id="trip-results-content" class="section-content" hidden>
+                        <p>The project delivers a full-fledged platform for travel planning where the user can search for destinations, arrange information regarding the trip, and plan his/her itineraries accordingly. It  showcases my capability of implementing responsive designs, APIs, and accessibility along with front-end development.</p>
+                    </div>
+                </div>                
+            </div>
+
+            <div class="view-photos-container">
+                <a href="#trip-gallery" class="view-photos">View Photos</a>
+                <a href="https://rachaelrmj.github.io/Trip-Snapshot-Website/" class="view-website" target="_blank" rel="noopener noreferrer" aria-label="View the live Trip Snapshot website (opens in a new tab)">View Website</a>
+            </div>
+
+            <div id="trip-gallery" class="modal" role="dialog" aria-modal="true" aria-label="Trip Snapshot project screenshots">
+                <a href="#" class="close" aria-label="Close gallery">x</a>
+                <div class="modal-slider">
+                    <img src="Images/Trip-Snapshot/Homepage/trip-snapshot-homepage-hero.png" alt="Trip Snapshot Hero" loading="lazy">
+                    <img src="Images/Trip-Snapshot/Homepage/trip-snapshot-homepage-features.png" alt="Trip Snapshot Features" loading="lazy">
+                    <img src="Images/Trip-Snapshot/Homepage/trip-snapshot-homepage-frustrations.png" alt="Trip Snapshot Frustrations" loading="lazy">
+                    <img src="Images/Trip-Snapshot/Homepage/trip-snapshot-homepage-how.png" alt="Trip Snapshot How It Works" loading="lazy">
+                    <img src="Images/Trip-Snapshot/Trip-Snapshot_About-Page.png" alt="Trip Snapshot About Page" loading="lazy">
+                    <img src="Images/Trip-Snapshot/Trip-Snapshot_FAQ-Page.png" alt="Trip Snapshot FAQ Page" loading="lazy">
+                    <img src="Images/Trip-Snapshot/Trip-Snapshot_Login-Page.png" alt="Trip Snapshot Login Page" loading="lazy">
+                    <img src="Images/Trip-Snapshot/Trip-Snapshot_Profile-Page.png" alt="Trip Snapshot Profile Page" loading="lazy">
+                    <img src="Images/Trip-Snapshot/Trip-Snapshot_Signup-Page.png" alt="Trip Snapshot Signup Page" loading="lazy">
+                    <img src="Images/Trip-Snapshot/Trip-Snapshot_TermsConditions-Page.png" alt="Trip Snapshot Terms and Conditions Page" loading="lazy">
+                    <img src="Images/Trip-Snapshot/Trip-Snapshot_Results-Page.png" alt="Trip Snapshot Results Page" loading="lazy">
+                    <img src="Images/Trip-Snapshot/Trip-Snapshot_Itinerary-Page.png" alt="Trip Snapshot Itinerary Page" loading="lazy">
+                </div>
+            </div>
+        </section>
+
+        <section id="cinema-overview">
+            <h3>8o5 Cinema</h3>
+            <video controls preload="metadata" aria-label="8o5 Cinema project demonstration video">
+                <source src="Videos/8o5-Cinema-Theater.mp4" type="video/mp4">
+                <track kind="captions" src="Captions/cinema.vtt" srclang="en" label="English captions" default>
+                Your browser does not support the video tag.
+            </video>
+            <p>A responsive web application that simulates a modern movie theater reservation experience. The project aimed to create an engaging platform where users could browse movies, view trailers, explore showtimes, and interact with theater services while demonstrating advanced front-end development techniques.</p>
+
+            <div class="case-study">
+                <div class="objective">
+                    <button class="section-header" aria-expanded="false" aria-controls="cinema-objective-content">
+                        <span>Objective</span>
+
+                        <span class="header-right">
+                            <span class="instruction">Expand for Details</span>
+                            <span class="arrow">&#9662;</span>
+                        </span>
+                    </button>
+
+                    <div id="cinema-objective-content" class="section-content" hidden>
+                        <p>Develop a responsive web application that simulates a modern movie theater website experience. The project aimed to create an engaging platform where users could browse movies, view trailers, explore showtimes, and interact with theater services while demonstrating advanced front-end development techniques.</p>
+                    </div>
+                </div>
+
+                <div class="synopsis">
+                    <button class="section-header" aria-expanded="false" aria-controls="cinema-synopsis-content">
+                        <span>Synopsis</span>
+
+                        <span class="header-right">
+                            <span class="instruction">Expand for Details</span>
+                            <span class="arrow">&#9662;</span>
+                        </span>
+                    </button>
+
+                    <div id="cinema-synopsis-content" class="section-content" hidden>
+                        <p>The design idea was borrowed from commercial theater sites like AMC Theaters and Regal Cinemas. The website uses common entertainment industry designs such as showcasing movies and interactive trailers. The aim was to recreate the actual functions of a theater site but in an easy to navigate format.</p>
+                    </div>
+                </div>
+
+                <div class="process">
+                    <button class="section-header" aria-expanded="false" aria-controls="cinema-process-content">
+                        <span>Process</span>
+
+                        <span class="header-right">
+                            <span class="instruction">Expand for Details</span>
+                            <span class="arrow">&#9662;</span>
+                        </span>
+                    </button>
+
+                    <div id="cinema-process-content" class="section-content" hidden>
+                        <p>The website utilizes HTML, CSS, JavaScript, and jQuery for development. There are many interactive features such as an image slider, modal windows, movie listings and trailers, to allow for a higher degree of user engagement. To create an interactive, dynamic application, external APIs were used along with browser storage to store user's preferences and memberships. Usability and interface design were important in the development of the application.</p>
+                    </div>
+                </div>
+
+                <div class="results">
+                    <button class="section-header" aria-expanded="false" aria-controls="cinema-results-content">
+                        <span>Results</span>
+
+                        <span class="header-right">
+                            <span class="instruction">Expand for Details</span>
+                            <span class="arrow">&#9662;</span>
+                        </span>
+                    </button>
+
+                    <div id="cinema-results-content" class="section-content" hidden>
+                        <p>The website successfully simulates a live entertainment setting. The following were among the aspects that the website was able to demonstrate: proficient use of APIs, jQuery programming, responsive design, and creating an interactive user interface.</p>
+                    </div>
+                </div>                
+            </div>
+            
+            <div class="view-photos-container">
+                <a href="#cinema-gallery" class="view-photos">View Photos</a>
+                <a href="https://rachaelrmj.github.io/8o5-Cinema-Theater-Website/" class="view-website" target="_blank" rel="noopener noreferrer" aria-label="View the live 8o5 Cinema website (opens in a new tab)">View Website</a>
+            </div>
+
+            <div id="cinema-gallery" class="modal" role="dialog" aria-modal="true" aria-label="8o5 Cinema project screenshots">
+                <a href="#" class="close" aria-label="Close gallery">x</a>
+                <div class="modal-slider">
+                    <img src="Images/8o5-Cinema/now-playing.png" alt="8o5 Cinema Screenshot" loading="lazy">
+                    <img src="Images/8o5-Cinema/Movie-Information_Showtimes.png" alt="8o5 Cinema Movie Information" loading="lazy">
+                    <img src="Images/8o5-Cinema/Movie-Trailer.png" alt="8o5 Cinema Movie Trailer" loading="lazy">
+                    <img src="Images/8o5-Cinema/New-Releases.png" alt="8o5 Cinema New Releases" loading="lazy">
+                    <img src="Images/8o5-Cinema/Dinning-Menu.png" alt="8o5 Cinema Dining Menu" loading="lazy">
+                    <img src="Images/8o5-Cinema/Food-Deal.png" alt="8o5 Cinema Food Deal" loading="lazy">
+                    <img src="Images/8o5-Cinema/Signup.png" alt="8o5 Cinema Signup" loading="lazy">
+                </div>
+            </div>
+        </section>
+
+        <section id="sapphire-overview">
+            <h3>Sapphire Dress</h3>            
+            <video controls preload="metadata" aria-label="Sapphire Dress project demonstration video">
+                <source src="Videos/Sapphire-Dress.mp4" type="video/mp4">
+                <track kind="captions" src="Captions/Sapphire-Dress.vtt" srclang="en" label="English captions" default>
+                Your browser does not support the video tag.
+            </video>
+            <p>A static fashion boutique website built with HTML and CSS that demonstrates semantic markup, visual design, navigation, and foundational front-end web development principles.</p>
+
+            <div class="case-study">
+                <div class="objective">
+                    <button class="section-header" aria-expanded="false" aria-controls="sapphire-objective-content">
+                        <span>Objective</span>
+
+                        <span class="header-right">
+                            <span class="instruction">Expand for Details</span>
+                            <span class="arrow">&#9662;</span>
+                        </span>
+                    </button>
+
+                    <div id="sapphire-objective-content" class="section-content" hidden>
+                        <p>Design and develop a visually appealing one-page website for a fashion boutique that showcases products and brand identity through a clean and modern web experience.</p>
+                    </div>
+                </div>
+
+                <div class="synopsis">
+                    <button class="section-header" aria-expanded="false" aria-controls="sapphire-synopsis-content">
+                        <span>Synopsis</span>
+
+                        <span class="header-right">
+                            <span class="instruction">Expand for Details</span>
+                            <span class="arrow">&#9662;</span>
+                        </span>
+                    </button>
+
+                    <div id="sapphire-synopsis-content" class="section-content" hidden>
+                        <p>The website is inspired by current fashion brands and boutique websites that use visual appeal to draw their consumers. A focus has been made on typography, visuals, hierarchy, and branding. This website tries to examine how good design can help convey the essence of a brand without any functional complexity.</p>
+                    </div>
+                </div>
+
+                <div class="process">
+                    <button class="section-header" aria-expanded="false" aria-controls="sapphire-process-content">
+                        <span>Process</span>
+
+                        <span class="header-right">
+                            <span class="instruction">Expand for Details</span>
+                            <span class="arrow">&#9662;</span>
+                        </span>
+                    </button>
+
+                    <div id="sapphire-process-content" class="section-content" hidden>
+                        <p>The site was created using HTML and CSS, keeping in mind the principles of visual communication. Single page navigation was chosen to provide a clean browsing process while still providing an organized flow of information. CSS techniques have been utilized to make sure there is consistency regarding space, typography, color, and layout.</p>
+                    </div>
+                </div>
+
+                <div class="results">
+                    <button class="section-header" aria-expanded="false" aria-controls="sapphire-results-content">
+                        <span>Results</span>
+
+                        <span class="header-right">
+                            <span class="instruction">Expand for Details</span>
+                            <span class="arrow">&#9662;</span>
+                        </span>
+                    </button>
+
+                    <div id="sapphire-results-content" class="section-content" hidden>
+                        <p>A successfully developed website showcasing the products and identity of the boutique was achieved with the use of an elegantly-designed one-page layout.</p>
+                    </div>
+                </div>                
+            </div>
+            
+            <div class="view-photos-container">
+                <a href="#sapphire-gallery" class="view-photos">View Photos</a>
+                <a href="https://rachaelrmj.github.io/Sapphire-Dress/" class="view-website" target="_blank" rel="noopener noreferrer" aria-label="View the live Sapphire Dress website (opens in a new tab)">View Website</a>
+                
+            </div>
+
+            <div id="sapphire-gallery" class="modal" role="dialog" aria-modal="true" aria-label="Sapphire Dress project screenshots">
+                <a href="#" class="close" aria-label="Close gallery">x</a>
+                <div class="modal-slider">
+                    <img src="Images/Sapphire-Dress/hero.png" alt="Sapphire Dress Hero" loading="lazy">
+                    <img src="Images/Sapphire-Dress/products.png" alt="Sapphire Dress Products" loading="lazy">
+                    <img src="Images/Sapphire-Dress/subscribe-footer.png" alt="Sapphire Dress Subscribe Footer" loading="lazy">
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>Copyright © 2026 RMJ Designs | All Rights Reserved</p>
+    </footer> 
+</body>
+</html>

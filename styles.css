@@ -1,0 +1,633 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+line-height:1.6;
+
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*----------Global Styles----------*/
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3 {
+    color: #6c2e2c;
+    font-family: 'Century Schoolbook', serif;
+}
+
+p, li {
+    color: #000000;
+    font-family: 'Tiro Bangla', serif;;
+
+}
+
+/* Skip Link Styles */
+.skip-link {
+    position: absolute;
+    top: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 12px 20px;
+    background-color: #ffffff;
+    color: #6c2e2c;
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid #6c2e2c;
+    border-radius: 4px;
+    z-index: 9999;
+    transition: top 0.2s ease;
+}
+
+.skip-link:focus, .skip-link:focus-visible {
+    top: 16px;
+}
+
+/* Screen Reader Styles */
+.sr-only {
+    position: absolute;
+    inline-size: 1px;
+    block-size: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+    border: 0;
+}
+
+/*----------Homepage Styles----------*/
+html {
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    scrollbar-color: #6c2e2c #000000; /* thumb | track */
+    scrollbar-width: thin;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: 'Tiro Bangla', serif;
+}
+
+header {
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    height: auto;
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+}
+
+/* Size and Style the Logo */
+.logo {
+    width: 150px;
+    border-radius: 50%;
+}
+
+/*----------Hamburger Menu Styles----------*/
+.hamburger-menu {
+    display: flex;
+    align-items: center;
+}
+
+/* Accessible hamburger button */
+.menu-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    z-index: 1001;
+}
+
+/* Hamburger icon */
+.menu-toggle img {
+    width: 44px;
+    height: 44px;
+}
+
+/* Keyboard focus indicator */
+.menu-toggle:focus-visible {
+    outline: 3px solid #facc15;
+    outline-offset: 4px;
+}
+
+/*----------Mobile Navigation Styles----------*/
+
+/* Hide the mobile navigation by default */
+.main-nav {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #6c2e2c;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .3s ease;
+}
+
+.main-nav.open {
+    max-height: 300px;
+}
+
+/* Style the unordered list in the mobile navigation */
+.main-nav ul {      
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+/* Style the list items in the mobile navigation */
+.main-nav li {
+    padding: 15px 0;
+    transition: transform .5s ease;
+}
+
+/* Style the links in the mobile navigation */
+.main-nav a {
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: 'Century Schoolbook', serif;
+}
+
+/* Hover Effects for Mobile Navigation Links */
+.main-nav a:hover, .main-nav a:focus-visible {
+    background-color:rgba(255,255,255,.15);
+}
+
+.main-nav li:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    transform: scale(1.1);   
+}
+
+:focus-visible {
+    outline: 3px solid #facc15;
+    outline-offset:4px;
+}
+
+.main-nav.open {
+    display: block;
+}
+/*----------------------------------------------------------------------------*/
+
+/*----------Header Styles----------*/
+h2 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 45px;
+    font-weight: bold;
+    color: #000000;
+}
+
+h3 {
+    margin: 20px 0;
+    text-align: center;
+    font-size: 35px;
+    color: #6c2e2c; 
+}
+
+h4 {
+    margin: 10px 0;
+    text-align: center;
+    font-size: 18px;
+    font-style: italic;
+    color: #6c2e2c;
+}
+/*----------------------------------------------------------------------------*/
+
+/*----------Section Styles----------*/
+#trip-snapshot-overview, #cinema-overview, #sapphire-overview {
+    padding: 20px;
+    margin: 40px auto;
+    width: min(90%, 1200px);
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+/*----------------------------------------------------------------------------*/
+
+/*----------Image Styles-----------*/
+#trip img, #cinema img, #sapphire img {
+    display: block;
+    margin: 20px auto;
+    max-width: 90%;
+}
+
+#trip-snapshot-overview img, #cinema-overview img, #sapphire-overview img {
+    margin: 20px auto;
+}
+/*----------------------------------------------------------------------------*/
+
+/*----------Paragraph & Anchor Styles----------*/
+p {
+    text-align: left;
+    margin: 20px;
+    font-size: 20px;
+    color: #000000;
+}
+
+#trip p, #cinema p, #sapphire p {
+    text-align: center;
+}
+
+#trip a, #cinema a, #sapphire a {
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+    font-size: 16px;
+    background-color: #6c2e2c;
+    padding: 10px 20px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*----------Collapsible Section Styles----------*/
+
+/* Section heading */
+button {
+    font-family: inherit;
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Century Schoolbook', serif;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color .3s ease;
+    width: 100%;
+    border: none;
+    text-align: left;
+    appearance: none;
+}
+
+.section-header:hover, .section-header:focus-visible {
+    background-color: #7f3a38;
+}
+
+.section-content {
+    padding: 10px 0;
+}
+
+.section-toggle {
+    display: none;
+}
+
+.section-header[aria-expanded="true"] .arrow {
+    transform: rotate(180deg);
+    transition: transform .3s ease;
+}
+
+.arrow {
+    display: inline-block;
+    transition: transform .3s ease;
+}
+
+/* Right side of heading */
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.instruction {
+    font-size: 13px;
+    font-family: 'Tiro Bangla', serif;
+    opacity: .8;
+}
+
+.section-header:hover .instruction, .section-header:focus-visible .instruction {
+    opacity: 1;
+}
+/*----------------------------------------------------------------------------*/
+
+/*----------Divider Styles----------*/
+.divider {
+    width: min(90%, 1200px);
+    height: 1px;
+    background-color: #6c2e2c;
+    margin: 20px auto;
+}
+/*----------------------------------------------------------------------------*/
+.project-container {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-gap: 10px;
+}
+
+#trip-snapshot-overview video, #cinema-overview video, #sapphire-overview video {
+    width: 100%;
+    height: auto;
+}
+
+.visuals {
+    width:50%;
+}
+
+.view-photos-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 20px auto;
+}
+
+.view-photos, .view-website {
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #6c2e2c;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color .3s ease;
+}
+
+.view-photos:hover, .view-website:hover {
+    background-color: #000000;
+}
+
+/* Modal */
+.modal {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0,0,0,.85);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+    z-index: 1000;
+}
+
+.modal:target {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.close {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    color: #ffffff;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+
+.modal-slider {
+    width: min(95%, 1000px);
+    max-width: 1000px;
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    scroll-snap-type: x mandatory;
+}
+
+
+.modal-slider img {
+    flex: 0 0 100%;
+    width: 100%;
+    max-height: 80vh;
+    object-fit: contain;
+    scroll-snap-align: center;
+}
+
+.case-study {
+    display: flex;
+    flex-direction: column;
+}
+
+#about {
+    text-align: center;
+}
+
+#profile-pic {
+    max-width: 75%;
+    margin: 20px auto;
+    border-radius: 180px;
+}
+
+#contact-me {
+    margin: 30px;
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.contact-icons img {
+    width: 50px;
+}
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    font-family: 'Tiro Bangla', serif;
+}
+
+footer p {
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+}
+
+/*---Tablet & Desktop Styles---*/
+
+@media screen and (min-width: 768px) {
+
+    /* Keep hamburger container visible */
+    .hamburger-menu {
+        display: flex;
+        align-items: center;
+    }
+
+    /* Hide only hamburger icon */
+    .menu-toggle {
+        display: none;
+    }
+
+    /* Show desktop navigation */
+    .main-nav {
+        display: flex;
+        position: static;
+        width: auto;
+        background-color: transparent;
+        max-height: none;
+    }
+
+    .main-nav ul {
+        display: flex;
+        flex-direction: row;
+        gap: 32px;
+        align-items: center;
+    }
+
+    .main-nav li {
+        padding: 20px;
+        margin: 0 20px;
+    }
+
+    .main-nav a {
+        color: #ffffff;
+        font-size: 22px;
+    }
+
+    h3 {
+        font-size: 42px;
+    }
+
+    h4 {
+        font-size: 22px;
+    }
+
+    p, li {
+        font-size: 21px;
+    }
+
+    .section-header {
+        position: relative;
+        justify-content: center;
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .section-header > span:first-child {
+        flex: 1;
+        text-align: center;
+    }
+
+    .header-right {
+        position: absolute;
+        right: 20px;
+    }
+
+    .view-photos, .view-website {
+    padding: 10px 100px;
+    }
+
+    #about {
+        display: grid;
+        grid-template-columns: 350px 1fr;
+        grid-template-rows: auto auto;
+        gap: 30px 50px;
+        width: 90%;
+        margin: 40px auto;
+        align-items: start;
+    }
+
+    #profile-pic {
+        grid-column: 1;
+        grid-row: 1;
+        width: 250px;
+        border-radius: 50%;
+        display: block;
+        margin: 0 auto;
+        align-self: center;
+    }
+
+    #about-me {
+        grid-column: 2;
+        grid-row: 1 / span 2;
+    }
+
+    #about-me p {
+        font-size: 20px;
+        line-height: 1.6;
+    }
+
+    #contact-me {
+        grid-column: 1;
+        grid-row: 2;
+        text-align: center;
+    }
+
+    #contact-me a {
+        display: inline-block;
+        margin: 0 10px;
+    }
+
+    #contact-me img {
+        width: 50px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    h3 {
+        font-size: 48px;
+    }
+
+    p, li {
+        font-size: 22px;
+    }
+
+    .section-header {
+        font-size: 26px;
+    }
+
+}
