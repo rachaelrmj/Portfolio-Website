@@ -1,139 +1,65 @@
-# RMJ Designs Portfolio Website
-
-## Overview
-
-This repository contains the source code for my personal portfolio website. The site showcases my front-end web development projects, UI/UX case studies, technical skills, and design process while serving as a central hub for my professional work.
-
-**Live Demo:**
-https://rachaelrmj.github.io/Portfolio-Website/
-
----
-
-## About
-
-I'm **Rachael Martinez-Jones**, a Front-End Web Developer and Graphic Information Technology student with a focus on responsive web development, accessibility, and user-centered design.
-
-This portfolio was built to demonstrate my ability to design and develop modern, responsive websites using semantic HTML, CSS, and JavaScript.
-
----
-
 ## Projects Included
 
 ### Trip Snapshot
 
-A responsive travel planning website designed to help users organize trips, create itineraries, and explore destinations from a single platform.
+A responsive travel planning website designed to help users organize trips, explore destinations, and create personalized itineraries through an intuitive interface.
 
 **Key Features**
 
-* Mobile-first responsive design
-* Interactive trip planning interface
+* Responsive mobile-first design
+* Interactive trip planning workflow
+* Destination exploration features
 * API integration
 * Session Storage and Local Storage
-* Accessibility improvements
-* Custom UI components
+* Accessible user interface following web accessibility best practices
+
+**Technologies**
+
+* HTML5
+* CSS3
+* JavaScript
+* jQuery
+* APIs
+* Web Storage
 
 ---
 
 ### 805 Cinema
 
-A responsive movie theater website that provides visitors with movie listings, showtimes, promotions, and theater information through an intuitive interface.
+A responsive movie theater website created to provide users with an engaging digital experience for exploring movies, theater information, promotions, and upcoming events.
 
 **Key Features**
 
-* Responsive layouts
-* Interactive navigation
-* Modern landing page
-* Accessibility-focused design
-* Mobile-friendly interface
+* Responsive website layout
+* User-friendly navigation
+* Promotional content sections
+* Mobile and desktop optimization
+* Structured semantic HTML
 
----
-
-## Skills Demonstrated
-
-### Front-End Development
+**Technologies**
 
 * HTML5
 * CSS3
-* JavaScript (ES6)
+* JavaScript
 * Responsive Web Design
-* Semantic HTML
-* CSS Grid
-* Flexbox
-* Mobile-First Development
-
-### User Experience
-
-* UI Design
-* UX Design
-* Information Architecture
-* Wireframing
-* Accessibility (WCAG)
-
-### Development Tools
-
-* Visual Studio Code
-* Git
-* GitHub
-* GitHub Pages
 
 ---
 
-## Website Features
+### Sapphire Dress
 
-* Responsive navigation
-* Accessible user interface
-* Semantic HTML structure
-* Project case studies
-* Optimized images
-* Mobile-friendly layouts
-* Contact page
-* Downloadable résumé
-* Interactive design elements
+A fashion-focused website concept designed to showcase product presentation, branding, and an engaging online shopping experience.
 
----
+**Key Features**
 
-## Technologies Used
+* Product-focused layouts
+* Visual branding elements
+* Responsive design
+* User-centered interface design
+* Organized content structure
 
-| Category   | Technologies                    |
-| ---------- | ------------------------------- |
-| Languages  | HTML5, CSS3, JavaScript         |
-| Layout     | CSS Grid, Flexbox               |
-| Libraries  | jQuery                          |
-| APIs       | Fetch API, REST APIs            |
-| Tools      | Visual Studio Code, Git, GitHub |
-| Deployment | GitHub Pages                    |
+**Technologies**
 
----
-
-## Repository Structure
-
-```text
-Portfolio-Website/
-├── index.html
-├── about.html
-├── projects.html
-├── contact.html
-├── css/
-├── js/
-├── Images/
-├── Videos/
-└── README.md
-```
-
----
-
-## Future Enhancements
-
-* Additional case studies
-* Performance optimizations
-* More JavaScript interactions
-* Expanded accessibility features
-* Continued UI/UX refinements
-
----
-
-## License
-
-This project is intended for educational and portfolio purposes.
-
-© 2026 Rachael Martinez-Jones. All rights reserved.
+* HTML5
+* CSS3
+* JavaScript
+* Responsive Web Design
