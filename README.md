@@ -30,10 +30,8 @@ A responsive movie theater website created to provide users with an engaging dig
 
 **Key Features**
 
-* Responsive website layout
 * User-friendly navigation
 * Promotional content sections
-* Mobile and desktop optimization
 * Structured semantic HTML
 
 **Technologies**
@@ -41,7 +39,6 @@ A responsive movie theater website created to provide users with an engaging dig
 * HTML5
 * CSS3
 * JavaScript
-* Responsive Web Design
 
 ---
 
@@ -51,9 +48,7 @@ A fashion-focused website concept designed to showcase product presentation, bra
 
 **Key Features**
 
-* Product-focused layouts
 * Visual branding elements
-* Responsive design
 * User-centered interface design
 * Organized content structure
 
@@ -61,5 +56,3 @@ A fashion-focused website concept designed to showcase product presentation, bra
 
 * HTML5
 * CSS3
-* JavaScript
-* Responsive Web Design
