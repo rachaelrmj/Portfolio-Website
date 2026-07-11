@@ -244,7 +244,6 @@ h4 {
     color: #6c2e2c;
 }
 /*----------------------------------------------------------------------------*/
-
 /*----------Section Styles----------*/
 #trip-snapshot-overview, #cinema-overview, #sapphire-overview {
     padding: 20px;
@@ -276,15 +275,20 @@ p {
     color: #000000;
 }
 
+#trip, #cinema, #sapphire {
+    text-align: center;
+}
+
 #trip p, #cinema p, #sapphire p {
     text-align: center;
 }
 
 #trip a, #cinema a, #sapphire a {
-    display: block;
+    display: inline-block;
     text-align: center;
     margin: 10px auto;
-    font-size: 16px;
+    font-size: 20px;
+    font-weight: bold;
     background-color: #6c2e2c;
     padding: 10px 20px;
     color: #ffffff;
@@ -538,7 +542,7 @@ footer p {
     }
 
     h3 {
-        font-size: 42px;
+        font-size: 35px;
     }
 
     h4 {
@@ -619,7 +623,7 @@ footer p {
 @media screen and (min-width: 1024px) {
 
     h3 {
-        font-size: 48px;
+        font-size: 40px;
     }
 
     p, li {
